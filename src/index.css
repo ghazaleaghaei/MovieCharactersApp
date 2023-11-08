@@ -1,0 +1,7 @@
+*{
+  
+  font-size: 20px;
+}
+:root, [data-bs-theme=light] {
+  --bs-body-bg: #1d272a!important;
+}

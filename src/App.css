@@ -1,0 +1,171 @@
+#root{
+background-color: #1d272a;
+}
+.navbar{
+  border-radius: 15px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar,.navbar div,.navbar button{
+  background-color: #37525a;
+}
+.navbar div {
+  font-weight: 500;
+  color: #a0b3b9;
+  width: 31%;
+}
+nav > :first-child{
+  color: #e3e3e5;
+}
+ul{
+  list-style: none;
+}
+input{
+  background-color: #627b83!important;
+  border: 0px!important;
+}
+.navbar button,.character button{
+  font-weight: 500;
+  color: #e3e3e5;
+  border: 0px;
+}
+i{
+  background-color: #37525a;
+    font-size: 25px;
+    font-weight: bolder!important;
+    color: red;
+}
+.badge{
+  left: 95%!important;
+  top: 30%!important;
+}
+::placeholder {
+  color: #b8b8c1!important;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12-18 */
+  color: #b8b8c1!important;
+}
+.character,.character div ,.character h3,.character span ,.character i{
+  background-color: #26373c
+}
+.character:hover{
+  box-shadow: 0px 0px 50px -4px rgba(0,0,0,0.1),0px -13px 42px 11px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+
+ 
+}
+.character img ,.characterDatail img{
+    object-fit: cover;
+    max-height: 200px;
+    max-width: 150px;
+    border-radius: 20px;
+}
+.characterDatail img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.characterDatail .row div,.characterDatail .row div p,.characterDatail .row div span, .characterDatail .row div h3,.characterDatail .row div i{
+  background-color: #26373c !important;
+}
+.status{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 2%; 
+  background-color:green!important; 
+}
+.dead{
+  background-color:red!important;
+}
+.character button{
+  background-color: #26373c;
+}
+.errorToast div{
+  background-color: #333!important;
+  color: #fff!important;
+}
+.errorToast > div:first-of-type > div:nth-of-type(2) > div::before , div::after
+{ background-color: red!important; }
+
+.characterDatail .detail,.detail button ,.detail button i{
+  border-radius: 15px;
+  background-color: #26373c;
+}
+
+.text-truncate{
+  max-width: 100%;
+}
+.hideSearch{
+  color: white;
+  
+}
+.arrowUp{
+  transition: all 0.3s ease-in-out!important;
+}
+.modal-dialog{
+  margin-top: 5%!important;
+}
+.modal-backdrop{
+  background-color: #1b1e22!important;
+}
+.modal-content {
+  min-height: 15vw;
+  background-color: #20323e!important;
+  box-shadow: inset 0 -0.5em 1.5em rgb(47 58 66), 
+  0em 0em 5px #3f607c, 0px 0px 20px #335770, 0px 0px 80px #314a56;
+ }
+.modal-title{
+font-size: larger!important;
+color: white!important;
+}
+.modal-body{
+  color: black;
+  font-weight: bolder;
+}
+.modal-header{
+  padding-bottom: 2%!important;
+  padding-top: 1%!important;
+  margin: 2%;
+  border-bottom-color:#718999!important;
+}
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 50vw!important;
+  }
+}
+@media (min-width:768px) and (max-width:1220px){
+  .navbar div{
+    width: 27%;
+  }
+}
+@media (min-width:500px) and (max-width:768px){
+  .navbar div{
+    width: 29%;
+  }
+}
+@media (max-width:500px){
+  .navbar div{
+    width: 51%;
+  }
+  .logo{
+    display: none;
+  }
+}
+@media (min-width:768px){
+.characterDatail .row{
+  border-radius: 20px;
+}
+.r-border{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.l-border{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+}
